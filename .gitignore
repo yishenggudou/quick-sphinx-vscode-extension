@@ -105,4 +105,4 @@ dist
 yarn.lock
 /.vscode-test
 /out
-yarn.lock
+/yarn.lock

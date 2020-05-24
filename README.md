@@ -15,11 +15,38 @@
 ### 
 
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Tables                       | Are      | de       |
+|------------------------------|:--------:|---------:|
+| `h1`                         |          |          |
+| `h2`                         |          |          |
+| `h3`                         |          |          |
+| `h4`                         |          |          |
+| `h5`                         |          |          |
+| `h6`                         |          |          |
+| `quote`                      |          |          |
+| `inline-code`                |          |          |
+| `simple-table`               |          |          |
+| `table`                      |          |          |
+| `list-table`                 |          |          |
+| `csv-table`                  |          |          |
+| `file-include`               |          |          |
+| `file-include-diff`          |          |          |
+| `glossary`                   |          |          |
+| `sectionauthor`              |          |          |
+| `codeauthor`                 |          |          |
+| `math-code`                  |          |          |
+| `inline-math`                |          |          |
+| `rubric-example`             |          |          |
+| `matplotlib-file`            |          |          |
+| `matplotlib-code`            |          |          |
+| `graphviz-code`              |          |          |
+| `graphviz-file`              |          |          |
+| `inheritance-diagram`        |          |          |
+| `inheritance-diagram-muti`   |          |          |
+| `todo`                       |          |          |
+| `todolist`                   |          |          |
+
+
 
 ## Requirements
 

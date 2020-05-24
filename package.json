@@ -1,20 +1,27 @@
 {
   "name": "vscode-extension",
   "displayName": "vscode-extension",
-  "description": "Starter kit for creating vscode extensions",
+  "description": "Sphinx helper vscode extensions",
   "version": "0.0.1",
-  "publisher": "atfzl",
+  "publisher": "yishenggudou",
   "engines": {
     "vscode": "^1.11.0"
   },
   "categories": [
-    "Other"
+    "Other",
+    "Snippets"
   ],
   "activationEvents": [
     "onCommand:extension.sayHello"
   ],
   "main": "./out/src/extension",
   "contributes": {
+    "snippets": [
+      {
+        "language": "restructuredtext",
+        "path": "./snippets.json"
+      }
+    ],
     "commands": [
       {
         "command": "extension.sayHello",
@@ -35,6 +42,13 @@
     "tslint": "^5.1.0",
     "tslint-eslint-rules": "^4.0.0",
     "typescript": "^2.3.1",
-    "vscode": "^1.1.0"
+    "vscode": "^1.43.0"
+  },
+  "engines": {
+    "vscode": "^1.43.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yishenggudou/quick-sphinx-vscode-extension.git"
   }
 }

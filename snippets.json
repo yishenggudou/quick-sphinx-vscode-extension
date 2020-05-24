@@ -1,0 +1,272 @@
+{
+  "Sphinx H1": {
+    "prefix": [
+      "h1",
+      "spx-h1"
+    ],
+    "body": [
+      "#############################",
+      "#############################"
+    ],
+    "description": "H1"
+  },
+  "Sphinx H2": {
+    "prefix": [
+      "h2",
+      "spx-h2"
+    ],
+    "body": [
+      "*****************************",
+      "*****************************"
+    ],
+    "description": "H2"
+  },
+  "Sphinx H3": {
+    "prefix": [
+      "h3",
+      "spx-h3"
+    ],
+    "body": [
+      "============================="
+    ],
+    "description": "H3"
+  },
+  "Sphinx H4": {
+    "prefix": [
+      "h4",
+      "spx-h4"
+    ],
+    "body": [
+      "-----------------------------"
+    ],
+    "description": "H4"
+  },
+  "Sphinx H5": {
+    "prefix": [
+      "h5",
+      "spx-h5"
+    ],
+    "body": [
+      "^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+    ],
+    "description": "H5"
+  },
+  "Sphinx H6": {
+    "prefix": [
+      "h6",
+      "spx-h6"
+    ],
+    "body": [
+      "\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\""
+    ],
+    "description": "H5"
+  },
+  "quote": {
+    "prefix": [
+      "quote",
+      "spx-quote"
+    ],
+    "body": [
+      "\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\""
+    ],
+    "description": "quote"
+  },
+  "inline-code": {
+    "prefix": [
+      "inline-code"
+    ],
+    "body": [
+      "``$1``"
+    ],
+    "description": "inline-code"
+  },
+  "simple-table": {
+    "prefix": [
+      "simple-table"
+    ],
+    "body": [
+      "=====  =====  =======\nA      B      A and B\n=====  =====  =======\nFalse  False  False\nTrue   False  False\nFalse  True   False\nTrue   True   True\n=====  =====  ======="
+    ],
+    "description": "simple-table"
+  },
+  "table": {
+    "prefix": [
+      "table"
+    ],
+    "body": [
+      "+------------------------+------------+----------+----------+\n| Header row, column 1   | Header 2   | Header 3 | Header 4 |\n| (header rows optional) |            |          |          |\n+========================+============+==========+==========+\n| body row 1, column 1   | column 2   | column 3 | column 4 |\n+------------------------+------------+----------+----------+\n| body row 2             | ...        | ...      |          |\n+------------------------+------------+----------+----------+"
+    ],
+    "description": "table"
+  },
+  "table": {
+    "prefix": [
+      "table"
+    ],
+    "body": [
+      "+------------------------+------------+----------+----------+\n| Header row, column 1   | Header 2   | Header 3 | Header 4 |\n| (header rows optional) |            |          |          |\n+========================+============+==========+==========+\n| body row 1, column 1   | column 2   | column 3 | column 4 |\n+------------------------+------------+----------+----------+\n| body row 2             | ...        | ...      |          |\n+------------------------+------------+----------+----------+"
+    ],
+    "description": "table"
+  },
+  "list-table": {
+    "prefix": [
+      "list-table"
+    ],
+    "body": [
+      ".. list-table:: Title\n   :widths: 25 25 50\n   :header-rows: 1\n\n   * - Heading row 1, column 1\n     - Heading row 1, column 2\n     - Heading row 1, column 3\n   * - Row 1, column 1\n     -\n     - Row 1, column 3\n   * - Row 2, column 1\n     - Row 2, column 2\n     - Row 2, column 3"
+    ],
+    "description": "list-table"
+  },
+  "csv-table": {
+    "prefix": [
+      "csv-table"
+    ],
+    "body": [
+      ".. csv-table:: Table Title\n   :file: CSV file path and name\n   :widths: 30, 70\n   :header-rows: 1"
+    ],
+    "description": "csv-table"
+  },
+  "file-include": {
+    "prefix": [
+      "file-include"
+    ],
+    "body": [
+      ".. literalinclude:: example.rb\n   :language: ruby\n   :emphasize-lines: 12,15-18\n   :linenos:"
+    ],
+    "description": "file-include"
+  },
+  "file-include-diff": {
+    "prefix": [
+      "file-include-diff"
+    ],
+    "body": [
+      ".. literalinclude:: example.py\n   :diff: example.py.orig"
+    ],
+    "description": "file-include-diff"
+  },
+  "glossary": {
+    "prefix": [
+      "glossary"
+    ],
+    "body": [
+      ".. glossary::\n\n   environment\n      A structure where information about all documents under the root is\n      saved, and used for cross-referencing.  The environment is pickled\n      after the parsing stage, so that successive runs only need to read\n      and parse new and changed documents.\n\n   source directory\n      The directory which, including its subdirectories, contains all\n      source files for one Sphinx project."
+    ],
+    "description": "此指令必须包含REST定义列表，如带有术语和定义的标记。然后定义将可与 term 角色。例子：：\n\n"
+  },
+  "sectionauthor": {
+    "prefix": [
+      "sectionauthor"
+    ],
+    "body": [
+      ".. sectionauthor:: Guido van Rossum <guido@python.org>\n"
+    ],
+    "description": "标识当前节的作者。该参数应该包括作者的姓名，这样它就可以用于表示和电子邮件地址。地址的域名部分应为小写。例子：：\n\n"
+  },
+  "codeauthor": {
+    "prefix": [
+      "codeauthor"
+    ],
+    "body": [
+      ".. codeauthor:: name <email>"
+    ],
+    "description": "这个 codeauthor 指令，可以出现多次，命名所描述代码的作者，就像 sectionauthor 命名文档的作者。只有当 show_authors 配置值为 True ."
+  },
+  "math-code": {
+    "prefix": [
+      "math-code"
+    ],
+    "body": [
+      ".. math::\n\n   (a + b)^2 = a^2 + 2ab + b^2\n\n   (a - b)^2 = a^2 - 2ab + b^2"
+    ],
+    "description": "用于显示数学的指令（采用整行的数学）。\n\n"
+  },
+  "inline-math": {
+    "prefix": [
+      "inline-math"
+    ],
+    "body": [
+      ":math:`a^2 + b^2 = c^2`."
+    ],
+    "description": "内联数学的角色。使用如下：\n\n"
+  },
+  "rubric-example": {
+    "prefix": [
+      "rubric-example"
+    ],
+    "body": [
+      "Lorem ipsum [#f1]_ dolor sit amet ... [#f2]_\n\n.. rubric:: Footnotes\n\n.. [#f1] 第一条尾注的文本.\n.. [#f2] 第二条尾注的文本."
+    ],
+    "description": "标记尾注的位置, 尾注的内容则在文档底部红色标题"
+  },
+  "matplotlib-file": {
+    "prefix": [
+      "matplotlib-file"
+    ],
+    "body": [
+      ".. plot:: pyplots/ellipses.py\n   :include-source:"
+    ],
+    "description": "matplotlib file 方式 show 方法."
+  },
+  "matplotlib-code": {
+    "prefix": [
+      "matplotlib-code"
+    ],
+    "body": [
+      ".. plot::\n\n   import matplotlib.pyplot as plt\n   import numpy as np\n   x = np.random.randn(1000)\n   plt.hist( x, 20)\n   plt.grid()\n   plt.title(r'Normal: $\\mu=%.2f, \\sigma=%.2f$'%(x.mean(), x.std()))\n   plt.show()"
+    ],
+    "description": "matplotlib code 方式"
+  },
+  "graphviz-code": {
+    "prefix": [
+      "graphviz-code"
+    ],
+    "body": [
+      ".. graphviz::\n\n   digraph foo {\n      \"bar\" -> \"baz\";\n   }"
+    ],
+    "description": "graphviz code 方式 https://graphviz.org/"
+  },
+  "graphviz-file": {
+    "prefix": [
+      "graphviz-file"
+    ],
+    "body": [
+      ".. graphviz:: external.dot\n"
+    ],
+    "description": "graphviz file 方式 https://graphviz.org/"
+  },
+  "inheritance-diagram": {
+    "prefix": [
+      "inheritance-diagram"
+    ],
+    "body": [
+      ".. inheritance-diagram:: sphinx.ext.inheritance_diagram.InheritanceDiagram\n"
+    ],
+    "description": "inheritance-diagram https://www.sphinx-doc.org/en/master/usage/extensions/inheritance.html"
+  },
+  "inheritance-diagram-muti": {
+    "prefix": [
+      "inheritance-diagram-muti"
+    ],
+    "body": [
+      "\"inheritance-diagram\": {\n    \"prefix\": [\n      \"inheritance-diagram\"\n    ],\n    \"body\": [\n      \".. inheritance-diagram:: sphinx.ext.inheritance_diagram.InheritanceDiagram\\n\"\n    ],\n    \"description\": \"inheritance-diagram https://www.sphinx-doc.org/en/master/usage/extensions/inheritance.html\"\n  }"
+    ],
+    "description": "inheritance-diagram https://www.sphinx-doc.org/en/master/usage/extensions/inheritance.html"
+  },
+  "todo": {
+    "prefix": [
+      "todo"
+    ],
+    "body": [
+      ".. todo::\n"
+    ],
+    "description": "todo"
+  },
+  "todolist": {
+    "prefix": [
+      "todolist"
+    ],
+    "body": [
+      ".. todolist::\n"
+    ],
+    "description": ".. todolist::"
+  }
+}

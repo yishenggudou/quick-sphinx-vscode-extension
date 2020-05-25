@@ -106,3 +106,4 @@ yarn.lock
 /.vscode-test
 /out
 /yarn.lock
+/vscode-extension-*.vsix

@@ -125,6 +125,15 @@
     ],
     "description": "csv-table"
   },
+  "csv-table-file": {
+    "prefix": [
+      "csv-table-file"
+    ],
+    "body": [
+      ".. csv-table:: Lorem Ipsum\n   :file: _files/lorem-tab.csv\n   :header-rows: 1\n   :class: longtable\n   :widths: 1 1"
+    ],
+    "description": "csv-table-file"
+  },
   "file-include": {
     "prefix": [
       "file-include"

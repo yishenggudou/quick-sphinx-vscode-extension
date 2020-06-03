@@ -349,5 +349,23 @@
       ".. rubric:: Footnotes\n\n.. [#f1] Text of the first footnote.\n.. [#f2] Text of the second footnote."
     ],
     "description": "footnote"
+  },
+  "pelican": {
+    "prefix": [
+      "pelican"
+    ],
+    "body": [
+      "My super title\n##############\n\n:date: 2010-10-03 10:20\n:modified: 2010-10-04 18:40\n:tags: thats, awesome\n:category: yeah\n:slug: my-super-post\n:authors: Alexis Metaireau, Conan Doyle\n:summary: Short version for index and feeds"
+    ],
+    "description": "pelican"
+  },
+  "pelican-publish": {
+    "prefix": [
+      "pelican-publish"
+    ],
+    "body": [
+      ":status: published\n"
+    ],
+    "description": "pelican-publish"
   }
 }

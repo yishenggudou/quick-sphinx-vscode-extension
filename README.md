@@ -53,7 +53,7 @@ vscode-extension 用于一些辅助的sphinx文档编写, 能够快速生成不�
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+[issues](https://github.com/yishenggudou/quick-sphinx-vscode-extension/issues)
 
 ## Release Notes
 

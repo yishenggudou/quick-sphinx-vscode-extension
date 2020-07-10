@@ -1,6 +1,8 @@
 # quick-sphinx-vscode-extension
 
-vscode-extension 用于一些辅助的sphinx文档编写, 能够快速生成不全信息
+[quick-sphinx-vscode-extension](https://yishenggudou.github.io/quick-sphinx-vscode-extension/) 用于一些辅助的sphinx文档编写, 能够快速生成不全信息
+
+
 
 ## Features
 

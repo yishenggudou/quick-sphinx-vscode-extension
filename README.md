@@ -7,15 +7,16 @@ vscode-extension 用于一些辅助的sphinx文档编写, 能够快速生成不�
 1. 支持wiki搜索引用
 2. 支持google 搜索引用
 
-### 快速生成
+
+## 截图
+
+![](screenshots/Jietu20200710-184206@2x.jpg)
 
 
+
+![](screenshots/Jietu20200710-184436-HD.gif)
 
 ### 快捷键
-
-
-
-### 
 
 
 | snippet  name                | desc     | other    |
@@ -50,13 +51,7 @@ vscode-extension 用于一些辅助的sphinx文档编写, 能够快速生成不�
 | `todolist`                   |          |          |
 
 
-## 截图
 
-![](screenshots/Jietu20200710-184206@2x.jpg)
-
-
-
-![](screenshots/Jietu20200710-184436-HD.gif)
 
 ## Known Issues
 

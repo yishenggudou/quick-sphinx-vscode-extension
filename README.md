@@ -58,3 +58,7 @@ vscode-extension 用于一些辅助的sphinx文档编写, 能够快速生成不�
 ## Release Notes
 
 1. [0.0.1](https://github.com/yishenggudou/quick-sphinx-vscode-extension/releases/tag/0.0.1)
+
+## 联系
+
+yishenggudou@gmail.com

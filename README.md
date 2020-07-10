@@ -57,4 +57,4 @@ Calling out known issues can help limit users opening duplicate issues against y
 
 ## Release Notes
 
-[下载0.0.1](https://github.com/yishenggudou/quick-sphinx-vscode-extension/releases/tag/0.0.1)
+1. [0.0.1](https://github.com/yishenggudou/quick-sphinx-vscode-extension/releases/tag/0.0.1)

@@ -367,5 +367,14 @@
       ":status: published\n"
     ],
     "description": "pelican-publish"
+  },
+  "term": {
+    "prefix": [
+      "term"
+    ],
+    "body": [
+      ":term:`py:glossary.iterable`\n"
+    ],
+    "description": "pelican-publish"
   }
 }

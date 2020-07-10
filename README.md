@@ -50,6 +50,13 @@ vscode-extension 用于一些辅助的sphinx文档编写, 能够快速生成不�
 | `todolist`                   |          |          |
 
 
+## 截图
+
+![](screenshots/Jietu20200710-184206@2x.jpg)
+
+
+
+![](screenshots/Jietu20200710-184436-HD.gif)
 
 ## Known Issues
 

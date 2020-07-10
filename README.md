@@ -2,7 +2,7 @@
 
 [quick-sphinx-vscode-extension](https://yishenggudou.github.io/quick-sphinx-vscode-extension/) 用于一些辅助的sphinx文档编写, 能够快速生成不全信息
 
-
+[github](https://github.com/yishenggudou/quick-sphinx-vscode-extension)
 
 ## Features
 

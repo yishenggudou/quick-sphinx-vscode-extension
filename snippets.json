@@ -368,6 +368,15 @@
     ],
     "description": "footnote"
   },
+  "spx-footnote2": {
+    "prefix": [
+      "spx-footnote2"
+    ],
+    "body": [
+      "Lorem ipsum [#f1]_ dolor sit amet ... [#f2]_\n\n.. rubric:: Footnotes\n\n.. [#f1] 第一条尾注的文本.\n.. [#f2] 第二条尾注的文本."
+    ],
+    "description": "footnote"
+  },
   "pelican": {
     "prefix": [
       "pelican"

@@ -53,6 +53,26 @@
 | `todolist`                   |          |          |
 
 
+## vscode配置 `.vscode/settings.json`
+
+```json
+{
+  "python.pythonPath": "venv/bin/python",
+  "restructuredtext.confPath": "${workspaceFolder}",
+  "editor.detectIndentation": false,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 3,
+  "window.title": "AKKA 架构源码分析",
+  "pasteImage.path": "${currentFileDir}/_static",
+  "pasteImage.basePath": "${currentFileDir}",
+  "files.exclude": {
+   "venv": true,
+   ".idea": true,
+   "_build":true,
+  }
+}
+
+```
 
 
 ## Known Issues

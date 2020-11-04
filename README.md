@@ -81,7 +81,7 @@
 
 ## Release Notes
 
-1. [0.0.1](https://github.com/yishenggudou/quick-sphinx-vscode-extension/releases/tag/0.0.1)
+1. [0.0.2](https://github.com/yishenggudou/quick-sphinx-vscode-extension/releases/tag/0.0.2)
 
 ## 联系
 
